@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "Prepend the CWD to a path",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "xo && mocha"
+    "test": "xo && mocha",
+    "tsd": "tsd-check"
   },
+  "files": [
+    "index.d.ts"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gakimball/prepend-cwd.git"
@@ -28,6 +33,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
+    "tsd-check": "^0.3.0",
     "xo": "^0.20.0"
   },
   "engines": {
