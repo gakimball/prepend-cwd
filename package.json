@@ -26,9 +26,9 @@
   },
   "homepage": "https://github.com/gakimball/prepend-cwd#readme",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0",
-    "xo": "^0.18.1"
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "xo": "^0.20.0"
   },
   "engines": {
     "node": ">=4"
