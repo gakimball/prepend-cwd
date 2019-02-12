@@ -1,6 +1,6 @@
 {
   "name": "prepend-cwd",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Prepend the CWD to a path",
   "main": "index.js",
   "types": "index.d.ts",
